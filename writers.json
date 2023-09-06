@@ -1,0 +1,109 @@
+[
+  {
+    "id": 0,
+    "firstName": "Артем",
+    "lastName": "Бабкин",
+    "status": "UPDATED",
+    "posts": [
+      {
+        "id": 0,
+        "content": "ай",
+        "created": "2023-09-04T14:49:05.365703800Z",
+        "updated": "2023-09-04T16:29:57.493565300Z",
+        "postStatus": "DELETED"
+      },
+      {
+        "id": 1,
+        "content": "аррррр",
+        "created": "2023-09-04T14:49:25.589588300Z",
+        "updated": "2023-09-04T16:30:53.102559600Z",
+        "postStatus": "UNDER_REVIEW",
+        "labels": [
+          {
+            "id": 11,
+            "name": "Обновленное приложение",
+            "status": "UPDATED"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "firstName": "Никита",
+    "lastName": "Никтович",
+    "status": "CREATED",
+    "posts": [
+      {
+        "id": 2,
+        "content": "Привет как дела",
+        "created": "2023-09-04T14:56:12.014759400Z",
+        "updated": "2023-09-04T14:56:12.030761200Z",
+        "postStatus": "ACTIVE",
+        "labels": [
+          {
+            "id": 0,
+            "name": "Сентябрь. Отличный день.",
+            "status": "CREATED"
+          },
+          {
+            "id": 1,
+            "name": "Уже начинается вечер",
+            "status": "CREATED"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "content": "Сегодня работал и не ходил в универ",
+        "created": "2023-09-04T14:56:49.660373400Z",
+        "updated": "2023-09-04T14:56:49.660373400Z",
+        "postStatus": "ACTIVE",
+        "labels": [
+          {
+            "id": 2,
+            "name": "учеба",
+            "status": "CREATED"
+          },
+          {
+            "id": 3,
+            "name": "работа",
+            "status": "CREATED"
+          },
+          {
+            "id": 4,
+            "name": "вождение",
+            "status": "CREATED"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Гм",
+    "lastName": "Хм",
+    "status": "UPDATED",
+    "posts": [
+      {
+        "id": 6,
+        "content": "Небо и солнце - что-то чудесное",
+        "created": "2023-09-04T16:37:35.574358100Z",
+        "updated": "2023-09-04T16:37:35.593384200Z",
+        "postStatus": "UNDER_REVIEW",
+        "labels": [
+          {
+            "id": 9,
+            "name": "небо",
+            "status": "DELETED"
+          },
+          {
+            "id": 10,
+            "name": "солнце",
+            "status": "CREATED"
+          }
+        ]
+      }
+    ]
+  }
+]

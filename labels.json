@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "name": "Сентябрь. Отличный день.",
+    "status": "DELETED"
+  },
+  {
+    "id": 1,
+    "name": "Уже начинается вечер",
+    "status": "CREATED"
+  },
+  {
+    "id": 2,
+    "name": "учеба",
+    "status": "CREATED"
+  },
+  {
+    "id": 3,
+    "name": "работа",
+    "status": "CREATED"
+  },
+  {
+    "id": 4,
+    "name": "вождение",
+    "status": "CREATED"
+  },
+  {
+    "id": 7,
+    "name": "авто",
+    "status": "CREATED"
+  },
+  {
+    "id": 8,
+    "name": "долгая дорога",
+    "status": "CREATED"
+  },
+  {
+    "id": 9,
+    "name": "небо",
+    "status": "DELETED"
+  },
+  {
+    "id": 10,
+    "name": "солнце",
+    "status": "CREATED"
+  },
+  {
+    "id": 11,
+    "name": "приложение",
+    "status": "UPDATED"
+  }
+]
