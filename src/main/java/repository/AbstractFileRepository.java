@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class AbstractFileRepository<T, ID> implements GenericRepository<T, ID> {
+public abstract class AbstractFileRepository<T> {
 
     protected final Path path;
     protected final Gson gson;
@@ -26,8 +26,7 @@ public abstract class AbstractFileRepository<T, ID> implements GenericRepository
         Utils.createFileIfNotExists(path);
     }
 
-    @Override
-    public List<T> getAll() {
+    protected List<T> getAllItemsInternal() {
         String jsonData;
         try {
             jsonData = Files.readString(path, StandardCharsets.UTF_8);

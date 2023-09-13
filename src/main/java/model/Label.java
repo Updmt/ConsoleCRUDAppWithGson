@@ -1,7 +1,6 @@
 package model;
 
 import lombok.*;
-import repository.Identify;
 
 @Getter
 @Setter

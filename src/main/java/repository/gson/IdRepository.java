@@ -1,4 +1,4 @@
-package repository;
+package repository.gson;
 
 import utils.Utils;
 
